@@ -5,7 +5,9 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
-import * as DataJson  from '../assets/table_data.json';
+
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 /**
  * @title Data table with sorting, pagination, and filtering.
  */
@@ -25,6 +27,9 @@ import * as DataJson  from '../assets/table_data.json';
   ],
 })
 export class Dashboard implements AfterViewInit {
+  // private _jsonURL = 'https://vpariza.github.io/assets/table_data.json';
+  private _jsonURL = 'assets/table_data.json';
+
   dataEntries: any[];
 
   displayedColumns: string[];
@@ -33,11 +38,22 @@ export class Dashboard implements AfterViewInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-  constructor() {
-    this.dataEntries = Array.from(DataJson)
-    this.displayedColumns = this.getHeaders();
+  constructor(private http:HttpClient) {
+    this.dataEntries = [];
+    this.displayedColumns = [];
     // Assign the data to the data source for the table to render
     this.dataSource = new MatTableDataSource(this.dataEntries);
+    // this.dataEntries = Array.from(DataJson);
+    this.getJSON().subscribe(data => {
+      this.dataEntries = data;
+      this.displayedColumns = this.getHeaders();
+      // Assign the data to the data source for the table to render
+      this.dataSource = new MatTableDataSource(this.dataEntries);
+    });
+  }
+
+  public getJSON(): Observable<any> {
+    return this.http.get(this._jsonURL);
   }
 
   getHeaders() {
