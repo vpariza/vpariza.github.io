@@ -1,13 +1,15 @@
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ViewChild, ViewEncapsulation } from '@angular/core';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
-
+import {MatCardModule} from '@angular/material/card';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+
+import {MatTabsModule} from '@angular/material/tabs';
 /**
  * @title Data table with sorting, pagination, and filtering.
  */
@@ -15,14 +17,17 @@ import { Observable } from 'rxjs';
   selector: 'dashboard',
   styleUrls: ['dashboard.css'],
   templateUrl: 'dashboard.html',
+  encapsulation: ViewEncapsulation.None,
   standalone: true,
   imports: [
+    MatCardModule,
     CommonModule,
     MatFormFieldModule,
     MatInputModule,
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
+    MatTabsModule
     // BrowserModule,
   ],
 })
