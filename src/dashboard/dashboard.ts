@@ -30,25 +30,21 @@ export class Dashboard implements AfterViewInit {
   // private _jsonURL = 'https://vpariza.github.io/assets/table_data.json';
   private _jsonURL = 'assets/table_data.json';
 
-  dataEntries: any[];
+  dataEntries: any[] = [];
 
-  displayedColumns: string[];
+  displayedColumns: string[] = [];
   dataSource: MatTableDataSource<Object>;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
   constructor(private http:HttpClient) {
-    this.dataEntries = [];
-    this.displayedColumns = [];
     // Assign the data to the data source for the table to render
     this.dataSource = new MatTableDataSource(this.dataEntries);
-    // this.dataEntries = Array.from(DataJson);
     this.getJSON().subscribe(data => {
       this.dataEntries = data;
       this.displayedColumns = this.getHeaders();
-      // Assign the data to the data source for the table to render
-      this.dataSource = new MatTableDataSource(this.dataEntries);
+      this.dataSource.data = data
     });
   }
 
