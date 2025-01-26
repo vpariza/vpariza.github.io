@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-07-10 14:00:00-0000
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement.
+Delighted to be awarded "Best & Most Innovative Solution 2020" in the Cyprus Digital Championship for Students for Fooderloo, tackling food waste in environmentally friendly ways.  

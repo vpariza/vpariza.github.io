@@ -1,157 +1,428 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Valentinos Pariza",
+    "label": "PhD Student @ UTN",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "valentinos.pariza@utn.de ",
+    "phone": "",
+    "url": "https://vpariza.github.io",
+    "summary": "AI enthusiast and PhD researcher specializing in Self-Supervised Learning for vision, driven by a passion to uncover the strengths and limitations of Deep Learning models and technologies. Guided by curiosity and fueled by innovation, I strive to explore, learn, and contribute to shaping the future of AI with every discovery.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Nuremberg",
+      "countryCode": "DE",
+      "region": "Germany"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Twitter/X.com",
+        "username": "v_pariza",
+        "url": "https://twitter.com/v_pariza"
+      },
+      {
+        "network": "github.com",
+        "username": "vpariza",
+        "url": "https://github.com/vpariza"
+      },
+      {
+        "network": "linkedin.com",
+        "username": "valentinos-pariza",
+        "url": "https://www.linkedin.com/in/valentinos-pariza/"
+      },
+      {
+        "network": "https://scholar.google.com",
+        "username": "Valentinos Pariza",
+        "url": "https://scholar.google.com/citations?user=jFT8a1YAAAAJ&hl=en"
+      },
+      {
+        "network": "https://orcid.org",
+        "username": "0009-0008-3440-9935",
+        "url": "https://orcid.org/0009-0008-3440-9935"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "TNO - Netherlands Organisation for Applied Scientific Research",
+      "position": "Research Intern",
+      "url": "https://www.tno.nl",
+      "startDate": "2024-02-01",
+      "endDate": "2024-07-31",
+      "summary": "Worked on improving In-Context Learning in Computer Vision with Patch Nearest Neighbor Consistency as part of my Master's Thesis.",
+      "highlights": [
+        "Collaborated with Dr. Yuki M. Asano and Dr. Gertjan Burghouts.",
+        "Advanced understanding of in-context learning for vision tasks."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "South Pole",
+      "position": "Data Science Intern",
+      "url": "https://www.southpole.com",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-31",
+      "summary": "Enhanced product-to-category matching algorithms using machine learning techniques.",
+      "highlights": [
+        "Diagnosed issues in the matching of products to CO2 footprint algorithms through log analysis.",
+        "Created a ground truth dataset for evaluating and training a better matching of Products to Categories via web scraping.",
+        "Improved top-1 system's Product to Category matching accuracy by 25.2% using a Text Transformer Encoder.",
+        "Deployed models to production with Kubernetes."
+      ]
+    },
+    {
+      "name": "CYENS Centre of Excellence",
+      "position": "Research Intern",
+      "url": "https://www.cyens.org.cy",
+      "startDate": "2022-06-01",
+      "endDate": "2022-07-31",
+      "summary": "Developed a Python library to accelerate Quality Diversity Optimization algorithms.",
+      "highlights": [
+        "Enhanced efficiency of state-of-the-art QD algorithms by over 2x using JAX."
+      ]
+    },
+    {
+      "name": "Fooderloo",
+      "position": "Co-Founder & Backend Developer",
+      "url": "https://foody.com.cy",
+      "startDate": "2019-10-01",
+      "endDate": "2022-03-31",
+      "summary": "Co-founded a business addressing food waste in Cyprus, developing its backend systems.",
+      "highlights": [
+        "Designed and implemented backend, database, and server-side systems."
+      ]
+    },
+    {
+      "name": "Amazon Data Services Ireland",
+      "position": "Software Development Engineer Intern",
+      "url": "https://www.amazon.com",
+      "startDate": "2020-08-31",
+      "endDate": "2021-07-31",
+      "summary": "Developed tools to optimize internal data processes and improve code logging practices.",
+      "highlights": [
+        "Automated report generation, saving hours of manual effort.",
+        "Improved a Java library for accessing internal AWS data.",
+        "Promoted good code logging practices, saving thousands of dollars annually.",
+        "Optimized a large-scale real-time log analysis service."
+      ]
+    },
+    {
+      "name": "CYENS Centre of Excellence",
+      "position": "Research Intern",
+      "url": "https://www.cyens.org.cy",
+      "startDate": "2020-06-01",
+      "endDate": "2020-08-31",
+      "summary": "Built a Speech Emotion Recognition system for dyadic conversations.",
+      "highlights": [
+        "Engineered an end-to-end system using state-of-the-art methodologies."
+      ]
+    },
+    {
+      "name": "Department of Computer Science, University of Cyprus",
+      "position": "Research Intern",
+      "url": "https://www.cs.ucy.ac.cy",
+      "startDate": "2019-06-01",
+      "endDate": "2019-07-31",
+      "summary": "Developed algorithms to improve micro-network performance and fault tolerance.",
+      "highlights": [
+        "Designed fault-tolerant message routing and faulty node detection algorithms.",
+        "Developed a Java-based simulation program for testing routing algorithms."
+      ]
+    },
+    {
+      "name": "National Guard of Cyprus",
+      "position": "Signal Soldier",
+      "url": "https://mod.gov.cy",
+      "startDate": "2016-07-01",
+      "endDate": "2017-09-30",
+      "summary": "Served as a Network and Computer Technician, operating intra-office communications.",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Technology Nuremberg (UTN)",
+      "location": "Nuremberg, Germany",
+      "url": "https://www.utn.de",
+      "area": "Deep Learning for Vision",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2024-12-01",
+      "endDate": "Present"
+    },
+    {
+      "institution": "University of Amsterdam (UvA)",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://www.uva.nl",
+      "area": "Artificial Intelligence (AI)",
+      "studyType": "MSc",
+      "startDate": "2022-09-01",
+      "endDate": "2024-08-31",
+      "score": "9.03/10",
+      "courses": ["Deep Learning 1 & 2", "Computer Vision 1 & 2", "Natural Language Processing", "Machine Learning", "Game Theory", "Information Retrieval", "Fairness, Accountability, Confidentiality and Transparency in AI", "Knowledge Representation and Reasoning "]
+    },
+    {
+      "institution": "University of Cyprus (UCY)",
+      "location": "Nicosia, Cyprus",
+      "url": "https://www.ucy.ac.cy",
+      "area": "Computer Science (CS), with a focus in AI",
+      "studyType": "BSc",
+      "startDate": "2017-09-01",
+      "endDate": "2022-06-28",
+      "score": "9.36/10",
+      "courses": ["Data Structures & Algorithms", "Object Oriented Programming (Java)", "Algorithms", "Computer Networks", "Operating Systems", "Databases", "Software Engineering", "Artificial Intelligence", "Machine Learning", "Computer Vision", "Data Mining on the Web", "Calculus I & II", "Linear Algebra", "Probabilities & Statistics", "Theory of Computation", "Introduction to Economics", "Logic Programming & Artificial Intelligence", "Parallel Processing", "System Security", "Synthesis of Parallel Algorithms", "Programming & Tools", "Logic in Computer Science"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Ready for Production Solution",
+      "date": "2023-08-31",
+      "awarder": "Summer of AI, initated by ABN AMRO and DEUS",
+      "url": "https://www.unic.ac.cy/greenstartup20/",
+      "summary": "Awarded for the development of a mobile application that aims to reduce the waste footprint of food providers by providing them with a way to sell edible products near expiration fast and effectively via an efficient matching with a potential interested party."
+    },
+    {
+      "title": "1 st place in the \"Go Green, Go Digital, Go Start-up!\" competition",
+      "date": "2021-03-01",
+      "awarder": "University of Nicosia",
+      "url": "https://www.unic.ac.cy/greenstartup20/",
+      "summary": "Awarded for the development of a mobile application that aims to reduce the waste footprint of food providers by providing them with a way to sell edible products near expiration fast and effectively via an efficient matching with a potential interested party."
+    },
+    {
+      "title": "1st place in the Cyprus Digital Championship Competition for Student Entrepreneurship",
+      "date": "2020-07-01",
+      "awarder": "Digital Championship Committee (Ministry of Energy, Commerce and Industry; Ministry of Education, Culture, Sport and Youth; Institution of research and innovation",
+      "url": "https://datascience.cy/results-sinn2021/",
+      "summary": "Awarded for the development of a mobile application that aims to reduce the waste footprint of food providers by providing them with a way to sell edible products near expiration fast and effectively via an efficient matching with a potential interested party."
+    },
+    {
+      "title": "Most Innovative idea for the society awarded with 'Innovative Technologies for the Society' in the Cyprus Digital Championship Competition for Student Entrepreneurship",
+      "date": "2020-07-01",
+      "awarder": "Digital Championship Committee (Ministry of Energy, Commerce and Industry; Ministry of Education, Culture, Sport and Youth; Institution of research and innovation",
+      "url": "https://datascience.cy/results-sinn2021/",
+      "summary": "Awarded for the development of a mobile application that aims to reduce the waste footprint of food providers by providing them with a way to sell edible products near expiration fast and effectively via an efficient matching with a potential interested party."
+    },
+    {
+      "title": "4th Place at the First Pancyprian Cyber Security Marathon",
+      "date": "2020-02-01",
+      "awarder": "IDEA Innovation Centre",
+      "url": "https://ideacy.net/en-gb/Idea/",
+      "summary": "Designed a multi-authentication system that using AI tried to verify the identity of a person using multiple traits of their Behavior."
+    },
+    {
+      "title": "'Best and Most Innovative Solution in Cyprus' in the WSA 2020 competition",
+      "date": "2020-01-01",
+      "awarder": "WSA 2020",
+      "url": "https://wsa-global.org/wp-content/uploads/2020/12/WSA-Nominees-2020-inclusion-and-empowerment.pdf",
+      "summary": "Awarded for the development of a mobile application that aims to reduce the waste footprint of food providers by providing them with a way to sell edible products near expiration fast and effectively via an efficient matching with a potential interested party."
+    },
+    {
+      "title": "'Top 10 Green Businesses in Cyprus' in Climate Launchpad 2020 competition",
+      "date": "2020-01-01",
+      "awarder": "Climate Launchpad 2020",
+      "url": "https://climatelaunchpad.org/finalists/fooderloo-ltd/",
+      "summary": "Awarded for the development of a mobile application that aims to reduce the waste footprint of food providers by providing them with a way to sell edible products near expiration fast and effectively via an efficient matching with a potential interested party."
+    },
+    {
+      "title": "Third Place at the Pancyprian ACM ICPC (in Cyprus)",
+      "date": "2019-06-01",
+      "awarder": "ACM ICPC",
+      "url": "",
+      "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Using Python to Access Web Data by University of Michigan",
+      "date": "2020-08-01",
+      "issuer": "Coursera & Michigan University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/4A7UVN7K24GD",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Python Data Structures by University of Michigan",
+      "date": "2020-06-01",
+      "issuer": "Coursera & Michigan University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/RRV6E5CEDLXM",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Programming for Everybody (Getting Started with Python) by University of Michigan",
+      "date": "2020-06-01",
+      "issuer": "Coursera & Michigan University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/ZS99M34SUZBF",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Machine Learning by Stanford University",
+      "date": "2019-08-01",
+      "issuer": "Coursera & Stanford University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/NP2V2EXWWTGM",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Mathematics for Machine Learning: Multivariate Calculus by Imperial College London",
+      "date": "2019-08-01",
+      "issuer": "Coursera & Imperial College of London",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/BU8NNM8P4L3D",
+      "icon":"fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Mathematics for Machine Learning: Linear Algebra by Imperial College London",
+      "date": "2019-07-01",
+      "issuer": "Coursera & Imperial College of London",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/8B3KN6KX8HAV",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "NeCo: Improving DINOv2's spatial representations in 19 GPU hours with Patch Neighbor Consistency",
+      "publisher": "ICLR 2025",
+      "releaseDate": "2025-01-22",
+      "url": "https://arxiv.org/abs/2408.11054",
+      "summary": "The paper proposes a new self-supervised learning method, NeCo (Patch Neighbor Consistency), which enhances pretrained representations by enforcing patch-level nearest neighbor consistency between a student and teacher model. This is done using a differentiable sorting method on top of pretrained models like DINOv2. The method achieves significant performance improvements with minimal computational cost (19 hours on a single GPU). It outperforms previous methods, setting new state-of-the-art results for semantic segmentation on several datasets, including ADE20k, Pascal VOC, and COCO-Things and COCO-Stuff."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "[Re] Reproducibility Study of 'Label-Free Explainability for Unsupervised Models'",
+      "publisher": "ReScience C",
+      "releaseDate": "2023-07-20",
+      "url": "https://openreview.net/pdf?id=qP34dvJpHd",
+      "summary": "This work evaluates the reproducibility of the paper 'Label-Free Explainability for Unsupervised Models' by Crabbe and van der Schaar. The goal is to reproduce the paper's four main claims in a label-free setting: (1) feature importance scores reveal key features of a model's input, (2) example importance scores identify key training examples to explain a test example, (3) saliency map interpretability is difficult for disentangled VAEs, and (4) different pretext tasks have non-interchangeable representations."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Python",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Object Oriented Programming",
+        "Data Structures",
+        "Algorithms",
+        "Web Development",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Data Mining",
+        "Data Analysis",
+        "Data Visualization",
+        "Web Scraping",
+        "APIs",
+        "Databases"
       ]
-    }
+    },
+    {
+      "name": "TensorFlow",
+      "level": "Intermediate",
+      "icon": "fa-brands fa-tensorflow",
+      "keywords": [
+        "Keras",
+        "TensorBoard",
+        "TensorFlow Lite",
+        "TensorFlow.js",
+        "TensorFlow Serving",
+        "TensorFlow Hub",
+        "TensorFlow Extended",
+        "TensorFlow Quantum",
+        "TensorFlow Graphics",
+        "TensorFlow Probability",
+        "TensorFlow Agents",
+        "TensorFlow Addons",
+        "TensorFlow Recommenders",
+        "TensorFlow I/O",
+        "TensorFlow Privacy",
+        "TensorFlow Federated",
+        "TensorFlow Model Optimization"
+      ]
+    },
+    {"name": "PyTorch",  "level": "Advanced", "keywords":[
+      "Pytorch Lightning",
+      "Pytorch TOrchvision",
+      "Pytorch Datasets",
+      "Pytorch Audio",
+      "Pytorch Text",
+      "Pytorch Geometric",
+      "Pytorch NN Module"
+    ]},
+    {"name": "Databases", "level":  "Intermediate", 
+      "keywords": ["SQL", 
+                  "NoSQL", 
+                  "MongoDB", 
+                  "PostgreSQL", 
+                  "SQLite", 
+                  "DynamoDB"
+                ]
+    },
+    {"name": "Data Structures & Algorithms", "level":  "Advanced",
+      "keywords": ["Arrays", 
+                  "Linked Lists", 
+                  "Stacks", 
+                  "Queues", 
+                  "Trees", 
+                  "Graphs", 
+                  "Heaps", 
+                  "Hash Tables", 
+                  "Sorting", 
+                  "Searching", 
+                  "Dynamic Programming", 
+                  "Greedy Algorithms", 
+                  "Backtracking", 
+                  "Divide and Conquer", 
+                  "Bit Manipulation", 
+                  "Recursion"
+                ]
+    },
+    {
+      "name": "Web Development", "level":  "Advanced", 
+      "keywords": ["HTML", 
+                  "CSS", 
+                  "JavaScript", 
+                  "TypeScript",
+                  "Bootstrap", 
+                  "jQuery", 
+                  "React", 
+                  "Angular", 
+                  "Node.js", 
+                  "Django", 
+                  "Flask", 
+                  "FastAPI", 
+                  "Ruby on Rails", 
+                  "ASP.NET", 
+                  "JSP", 
+                  "PHP"
+                ]
+      },
+      {
+        "name": "Java", "level":  "Master",
+        "keywords": ["Object Oriented Programming", 
+                    "Data Structures", 
+                    "Algorithms", 
+                    "Web Development", 
+                    "Machine Learning", 
+                    "Natural Language Processing", 
+                    "Data Mining", 
+                    "Data Analysis", 
+                    "Data Visualization", 
+                    "Web Scraping", 
+                    "APIs", 
+                    "Databases"
+                  ]
+      },
+      {
+        "name": "C/C++", "level": "Advanced", "keywords":[
+          "Object Oriented Programming",
+          "Data Structures",
+          "Algorithms",
+          "Machine Learning",
+          "Natural Language Processing",
+          "Deep Learning",
+          "Databases"
+        ]
+      }
+
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Greek",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,42 +430,150 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Russian",
+      "fluency": "Intermediate",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Artificial Intelligence, Machine & Deep Learning",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deep Learning",
+        "Vision Models",
+        "Machine Learning Algorithms",
+        "Neural Networks",
+        "Model Optimization",
+        "Transfer Learning",
+        "Representation Learning",
+        "Self-Supervised Learning (SSL)"
+      ]
+    },
+    {
+      "name": "Synthetic Data",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "Data Augmentation",
+        "Generative Models",
+        "GANs (Generative Adversarial Networks)",
+        "Diffusion Models",
+        "Synthetic Dataset Creation",
+        "Domain Randomization",
+        "Data Efficiency",
+        "AI Training Scalability"
+      ]
+    },
+    {
+      "name": "Curiosity-Driven Exploration",
+      "icon": "fa-solid fa-magnifying-glass",
+      "keywords": [
+        "Research and Development (R&D)",
+        "Novel Discoveries",
+        "Exploratory Data Analysis (EDA)",
+        "Experimental Design",
+        "Intellectual Curiosity",
+        "Open-Ended Problem Solving"
+      ]
+    },
+    {
+      "name": "Teaching and Mentoring",
+      "icon": "fa-solid fa-chalkboard-teacher",
+      "keywords": [
+        "Knowledge Sharing",
+        "Technical Training",
+        "Curriculum Development",
+        "Educational Workshops",
+        "Mentorship Programs",
+        "Peer Collaboration"
+      ]
+    },
+    {
+      "name": "Innovation and Problem Solving",
+      "icon": "fa-solid fa-lightbulb",
+      "keywords": [
+        "Cutting-Edge Technology",
+        "Creative Solutions",
+        "Applied Research",
+        "Product Development",
+        "Breakthrough Thinking",
+        "Innovation-Driven Development"
+      ]
+    },
+    {
+      "name": "Continuous Growth",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Lifelong Learning",
+        "Professional Development",
+        "Skill Acquisition",
+        "Emerging Technologies",
+        "Adaptability",
+        "Personal Growth"
+      ]
+    },
+    {
+      "name": "Multidisciplinary Collaboration",
+      "icon": "fa-solid fa-users",
+      "keywords": [
+        "Interdisciplinary Research",
+        "Neuroscience",
+        "Computational Modeling",
+        "Cross-Domain Synergy",
+        "Systems Thinking",
+        "Collaborative Frameworks"
+      ]
+    },
+    {
+      "name": "Languages and Communication",
+      "icon": "fa-solid fa-language",
+      "keywords": [
+        "Effective Storytelling",
+        "Technical Writing",
+        "Academic Presentations"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Professor Yuki M. Asano",
+      "icon": "fa-solid fa-user",
+      "reference": "Professor at the University of Technology Nuremberg (UTN)",
+      "url": "https://yukimasano.github.io"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Dr. Gertjan Burghouts",
+      "icon": "fa-solid fa-user",
+      "reference": "Researcher in deep learning and computer vision at the Netherlands Organisation for Applied Scientific Research (TNO)",
+      "url": "https://gertjanburghouts.github.io/about/"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Open Hummingbird Evaluation",
+      "summary": "Developed and published the Dense Nearest Neighbor Retrieval Evaluation (Balaˇzevi'c et al. \"Towards In-contextScene Understanding\") for testing the In-Context Learning Capabilities of vision encoders.",
+      "highlights": ["Deep Learning", "Vision Encoders", "Self-Supervised Learning", "Nearest Neighbor Retrieval", "In-Context Learning", "Evaluation Metrics"],
+      "startDate": "2023-09-01",
+      "endDate": "2024-08-31",
+      "url": "https://github.com/vpariza/open-hummingbird-eval"
+    },
+    {
+      "name": "Evaluating the Robustness of 3D Occupancy Prediction Models Under Noisy Data Conditions",
+      "summary": "This project focused on evaluating the robustness and reliability of State-of-the-Art 3D Occupancy Prediction Models under noisy or corrupted input data, simulated using synthetic data. The study highlighted the inadequacy of training models with data that does not reflect real-world scenarios. It demonstrated significant improvements in performance when applying appropriate data augmentations, achieving a 1-3% increase on noisy datasets and a 0.5-1% increase on clean datasets, further advancing state-of-the-art results.",
+      "highlights": ["Computer Vision", "3D Occupancy Prediction", "3D Object Detection", "Synthetic Data", "Data Augmentation", "Robustness Evaluation", "Deep Learning"],
+      "startDate": "2023-04-01",
+      "endDate": "2024-06-23",
+      "url": "https://www.github.com/vpariza/CVPR2023-3D-Occupancy-Prediction-CV2"
+    },
+    {
+      "name": "Iterative Image Refinement Using Socratic Models: Exploring Bias and Hallucination Effects",
+      "summary": "This project involved designing and implementing an iterative approach inspired by Socratic Models, which uses a pipeline of models to iteratively refine a prompt and generate improved images. The process involves leveraging a history of generated images and their refined captions (via a language model). The study revealed the bias and hallucination effects that emerge when connecting multiple models, highlighting challenges in model interactions and data generation.",
+      "highlights": ["Deep Learning", "Image Generation", "Bias Detection", "Hallucination Detection", "Socratic Models", "Iterative Refinement", "Language Models"],
+      "startDate": "2023-04-01",
+      "endDate": "2024-06-23",
+      "url": "https://github.com/vpariza/SocraticImageGeneration"
     }
   ]
 }

@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - vpariza
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - vpariza/open-hummingbird-eval
+  - vpariza/NeCo
+  - vpariza/CVPR2023-3D-Occupancy-Prediction-CV2
+  - vpariza/SocraticImageGeneration
+  - vpariza/Re-Label-Free-XAI
+  - vpariza/Wavengine
+  - vpariza/Black_Jack
