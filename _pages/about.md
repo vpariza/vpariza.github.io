@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD student at  University of Technology Nuremberg (UTN), fomerly MS @ UvA & Researcher @ TNO, ex-Amazonian.
 # <a href='#'>Affiliations</a>.
