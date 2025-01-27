@@ -1,6 +1,13 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=51299439…
+…llow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
+google_analytics: G-79Q7GCB013 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
+enable_google_analytics:    true  # enables google analytics
+enable_cronitor_analytics:  false  # enables cronitor RUM analytic
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Valentinos
