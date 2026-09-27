@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student at  University of Technology Nuremberg (UTN), fomerly MS @ UvA & Researcher @ TNO, ex-Amazonian.
+subtitle: PhD student at the University of Technology Nuremberg (UTN), formerly MSc at UvA and researcher at TNO.
 # <a href='#'>Affiliations</a>.
 profile:
   align: right
-  image: valentinos_pariza.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>52H Ulmenstraße, 90443</p>
