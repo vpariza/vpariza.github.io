@@ -119,9 +119,7 @@
       "area": "Deep Learning for Vision, Fundamental AI Lab",
       "startDate": "2024-12",
       "location": "Nuremberg, Germany",
-      "courses": [
-        "Advisor: Prof. Yuki M. Asano."
-      ]
+      "courses": ["Advisor: Prof. Yuki M. Asano."]
     },
     {
       "institution": "University of Amsterdam",
@@ -157,16 +155,7 @@
       "publisher": "CVPR 2026",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2507.14137",
-      "authors": [
-        "S. Venkataramanan",
-        "V. Pariza",
-        "M. Salehi",
-        "L. Knobel",
-        "E. Ramzi",
-        "S. Gidaris",
-        "A. Bursuc",
-        "Y. M. Asano"
-      ],
+      "authors": ["S. Venkataramanan", "V. Pariza", "M. Salehi", "L. Knobel", "E. Ramzi", "S. Gidaris", "A. Bursuc", "Y. M. Asano"],
       "summary": "Co-first author with Shashanka Venkataramanan (equal contribution). Core contributor to research ideas, implementation, training, experiments, ablations, and writing. Designed and implemented RASA, and conducted its experiments and ablations."
     },
     {
@@ -174,13 +163,7 @@
       "publisher": "ICLR 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2408.11054",
-      "authors": [
-        "V. Pariza",
-        "M. Salehi",
-        "G. Burghouts",
-        "F. Locatello",
-        "Y. M. Asano"
-      ],
+      "authors": ["V. Pariza", "M. Salehi", "G. Burghouts", "F. Locatello", "Y. M. Asano"],
       "summary": "First author. Developed NeCo with collaborators during my MSc thesis, improving dense visual representations with 19 hours of post-training on a single GPU in the reported setup."
     },
     {
@@ -188,12 +171,7 @@
       "publisher": "ReScience C, 9(2), Article 11",
       "releaseDate": "2023",
       "url": "https://doi.org/10.5281/zenodo.8173674",
-      "authors": [
-        "V. Pariza",
-        "A. Pal",
-        "M. Pawar",
-        "Q. S. Faber"
-      ],
+      "authors": ["V. Pariza", "A. Pal", "M. Pawar", "Q. S. Faber"],
       "summary": "A reproducibility study of methods for explaining unsupervised models."
     }
   ],
@@ -241,73 +219,33 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "Java",
-        "SQL"
-      ]
+      "keywords": ["Python", "C/C++", "Java", "SQL"]
     },
     {
       "name": "Deep learning",
-      "keywords": [
-        "PyTorch",
-        "PyTorch Lightning",
-        "JAX",
-        "TensorFlow",
-        "Hugging Face Transformers",
-        "Hugging Face Diffusers"
-      ]
+      "keywords": ["PyTorch", "PyTorch Lightning", "JAX", "TensorFlow", "Hugging Face Transformers", "Hugging Face Diffusers"]
     },
     {
       "name": "GPU training",
-      "keywords": [
-        "Multi-GPU training (DDP/FSDP)",
-        "Mixed precision",
-        "Profiling",
-        "Memory optimization",
-        "Slurm"
-      ]
+      "keywords": ["Multi-GPU training (DDP/FSDP)", "Mixed precision", "Profiling", "Memory optimization", "Slurm"]
     },
     {
       "name": "Research methods",
-      "keywords": [
-        "Experimental design",
-        "Ablations",
-        "Robustness testing",
-        "Reproducibility",
-        "Model evaluation"
-      ]
+      "keywords": ["Experimental design", "Ablations", "Robustness testing", "Reproducibility", "Model evaluation"]
     },
     {
       "name": "Development and deployment",
-      "keywords": [
-        "Git",
-        "Docker",
-        "Kubernetes",
-        "AWS",
-        "Google Cloud Platform"
-      ]
+      "keywords": ["Git", "Docker", "Kubernetes", "AWS", "Google Cloud Platform"]
     }
   ],
   "interests": [
     {
       "name": "Current research",
-      "keywords": [
-        "Self-supervised learning",
-        "Visual representations",
-        "Diffusion models",
-        "Image editing",
-        "Image generation",
-        "Visual perception"
-      ]
+      "keywords": ["Self-supervised learning", "Visual representations", "Diffusion models", "Image editing", "Image generation", "Visual perception"]
     },
     {
       "name": "Growing research interests",
-      "keywords": [
-        "Multimodal learning",
-        "Video"
-      ]
+      "keywords": ["Multimodal learning", "Video"]
     }
   ]
 }

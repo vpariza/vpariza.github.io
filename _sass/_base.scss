@@ -1367,24 +1367,100 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // Research cards and homepage links
-.profile-links { display: flex; flex-wrap: wrap; gap: .65rem 1.3rem; margin: .9rem 0 1.6rem; }
-.profile-links a { font-size: .95rem; border-bottom: 1px solid var(--global-divider-color); padding-bottom: .15rem; }
-.home-research { clear: both; padding-top: 1.7rem; }
-.research-card { overflow: hidden; border: 1px solid var(--global-divider-color); border-radius: 10px; box-shadow: none; }
-.projects .research-image { display: flex; height: 190px; align-items: center; justify-content: center; background: #f4f7f8; border-bottom: 1px solid var(--global-divider-color); }
-.projects .research-image img { height: 100%; width: 100%; object-fit: contain; }
-.projects .research-card .card-body { display: flex; flex-direction: column; padding: 1.3rem; }
-.projects .research-card .card-title { font-size: 1.4rem; line-height: 1.25; margin: .3rem 0 .7rem; }
-.projects .research-card .card-title a { color: var(--global-text-color); }
-.research-status { font-size: .8rem; color: var(--global-theme-color); margin-bottom: .25rem; }
-.projects .research-card .research-role { color: var(--global-text-color); font-size: .88rem; }
-.research-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: auto; padding-top: .5rem; font-size: .9rem; }
-.profile .more-info { font-family: inherit; font-size: .9rem; }
-.projects h2.category { text-align: left; font-size: 1.4rem; }
-@media (max-width: 575.98px) { .projects .research-image { height: 160px; } .home-research { padding-top: 1rem; } }
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.3rem;
+  margin: 0.9rem 0 1.6rem;
+}
+.profile-links a {
+  font-size: 0.95rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.15rem;
+}
+.home-research {
+  clear: both;
+  padding-top: 1.7rem;
+}
+.research-card {
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  box-shadow: none;
+}
+.projects .research-image {
+  display: flex;
+  height: 190px;
+  align-items: center;
+  justify-content: center;
+  background: #f4f7f8;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.projects .research-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.projects .research-card .card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.3rem;
+}
+.projects .research-card .card-title {
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin: 0.3rem 0 0.7rem;
+}
+.projects .research-card .card-title a {
+  color: var(--global-text-color);
+}
+.research-status {
+  font-size: 0.8rem;
+  color: var(--global-theme-color);
+  margin-bottom: 0.25rem;
+}
+.projects .research-card .research-role {
+  color: var(--global-text-color);
+  font-size: 0.88rem;
+}
+.research-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.profile .more-info {
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+.projects h2.category {
+  text-align: left;
+  font-size: 1.4rem;
+}
+@media (max-width: 575.98px) {
+  .projects .research-image {
+    height: 160px;
+  }
+  .home-research {
+    padding-top: 1rem;
+  }
+}
 
 @media (min-width: 768px) {
-  .projects .col.featured { flex: 0 0 100%; max-width: 100%; }
-  .projects .featured .research-card { display: grid; grid-template-columns: 1fr 1fr; }
-  .projects .featured .research-image { height: 100%; min-height: 190px; border-bottom: 0; border-right: 1px solid var(--global-divider-color); }
+  .projects .col.featured {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .projects .featured .research-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .projects .featured .research-image {
+    height: 100%;
+    min-height: 190px;
+    border-bottom: 0;
+    border-right: 1px solid var(--global-divider-color);
+  }
 }
