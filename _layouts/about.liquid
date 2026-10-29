@@ -12,6 +12,12 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    <nav class="profile-links" aria-label="Contact and research profiles">
+      <a href="mailto:{{ site.data.socials.email }}">Email</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+      <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+    </nav>
   </header>
 
   <article>

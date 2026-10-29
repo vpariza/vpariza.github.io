@@ -1,11 +1,21 @@
 ---
 layout: page
 title: NeCo
-description: NeCo - Patch Neighbor Consistency is an SSL loss that leverages differentiable sorting to enforce patch-level nearest neighbor consistency between a student and teacher model, delivering state-of-the-art dense feature encoders and significant performance improvements across multiple vision tasks and datasets
-img: assets/img/publication_preview/neco.gif
-importance: 1
-category: work
+description: "Learning the order of nearby patches to improve dense visual features."
+img: "assets/img/publication_preview/neco-method.jpg"
+importance: 3
+category: Research
 redirect: https://vpariza.github.io/NeCo/
+
+image_alt: "NeCo patch-ordering method overview from the paper"
+
+status: "ICLR 2025"
+
+contribution: "First author; MSc thesis research."
+
+paper: "https://arxiv.org/abs/2408.11054"
+
+code: "https://github.com/vpariza/NeCo"
 ---
 
-<p>Visit the <a href="https://vpariza.github.io/NeCo/">NeCo project page</a> for details.</p>
+Visit the [NeCo project page](https://vpariza.github.io/NeCo/) for the paper and code.

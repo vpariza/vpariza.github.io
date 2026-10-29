@@ -1,0 +1,35 @@
+{% if page.url == '/' %}
+{% capture person_name %}{{ site.first_name }} {{ site.last_name }}{% endcapture %}
+{% assign socials = site.data.socials %}
+{% assign person_id = '/#person' | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ person_name | strip | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "image": {{ '/assets/img/prof_pic.jpg' | absolute_url | jsonify }},
+      "jobTitle": "PhD Researcher in Computer Vision",
+      "affiliation": {"@type": "Organization", "name": "University of Technology Nuremberg"},
+      "sameAs": [
+        {{ socials.github_username | prepend: 'https://github.com/' | jsonify }},
+        {{ socials.scholar_userid | prepend: 'https://scholar.google.com/citations?user=' | jsonify }},
+        {{ socials.orcid_id | prepend: 'https://orcid.org/' | jsonify }},
+        {{ socials.linkedin_username | prepend: 'https://www.linkedin.com/in/' | append: '/' | jsonify }}
+      ]
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": {{ '/#profile' | absolute_url | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ person_name | strip | jsonify }},
+      "description": {{ site.description | strip | jsonify }},
+      "mainEntity": {"@id": {{ person_id | jsonify }}}
+    }
+  ]
+}
+</script>
+{% endif %}

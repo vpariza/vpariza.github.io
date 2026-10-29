@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
+repo_root="$PWD"
+if [[ -x "$repo_root/.local/ruby/bin/ruby" ]]; then
+  export DYLD_LIBRARY_PATH="$repo_root/.local/ruby/lib${DYLD_LIBRARY_PATH:+:$DYLD_LIBRARY_PATH}"
+  ruby_arch_dir="$(find "$repo_root/.local/ruby/lib/ruby/3.3.0" -maxdepth 1 -type d -name '*-darwin*' -print -quit)"
+  export RUBYLIB="$repo_root/.local/ruby/lib/ruby/3.3.0:$ruby_arch_dir"
+  export GEM_HOME="$repo_root/.local/gems"
+  export GEM_PATH="$GEM_HOME:$repo_root/.local/ruby/lib/ruby/gems/3.3.0"
+  export BUNDLE_PATH="$repo_root/.local/bundle"
+  export PATH="$repo_root/.local/ruby/bin:$PATH"
+  bundle_cmd=("$repo_root/.local/ruby/bin/ruby" "$GEM_HOME/bin/bundle")
+else
+  bundle_cmd=(bundle)
+fi
+if ! command -v node >/dev/null 2>&1 && [[ -x "$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node" ]]; then
+  export PATH="$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:$PATH"
+fi
+export JEKYLL_ENV=development
+"${bundle_cmd[@]}" check || "${bundle_cmd[@]}" install
+exec "${bundle_cmd[@]}" exec jekyll serve --config _config.yml,_config.preview.yml --host 127.0.0.1 --port "${PORT:-4000}" "$@"

@@ -11,3 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# Local Ruby runtime and preview dependencies
+.local/

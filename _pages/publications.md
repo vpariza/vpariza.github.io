@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications by categories in reversed chronological order.
+description: Papers on visual representation learning and reproducibility.
 nav: true
 nav_order: 2
 ---
