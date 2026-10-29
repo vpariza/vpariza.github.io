@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "publications by categories in reversed chronological order.",
+          description: "Papers on visual representation learning and reproducibility.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "My Personal and Work Projects.",
+          description: "Research, open-source software, and selected course projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -37,35 +37,66 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-delighted-to-be-awarded-best-amp-amp-most-innovative-solution-2020-in-the-cyprus-digital-championship-for-students-for-fooderloo-tackling-food-waste-in-environmentally-friendly-ways",
-          title: 'Delighted to be awarded “Best &amp;amp;amp; Most Innovative Solution 2020” in the Cyprus...',
+        },{id: "news-fooderloo-received-the-best-amp-amp-most-innovative-solution-award-in-the-cyprus-digital-championship-for-students",
+          title: 'Fooderloo received the Best &amp;amp;amp; Most Innovative Solution award in the Cyprus Digital...',
           description: "",
-          section: "News",},{id: "news-started-my-journey-at-amazon-data-services-in-ireland-as-part-of-the-consumer-reliability-engineering-analytics-cra-operational-intelligence-team-excited-to-contribute-to-the-company-s-innovative-projects-and-collaborate-with-talented-colleagues",
-          title: 'Started my journey at Amazon Data Services in Ireland as part of the...',
+          section: "News",},{id: "news-i-joined-amazon-data-services-ireland-as-a-software-development-engineer-intern-in-the-consumer-reliability-engineering-analytics-team",
+          title: 'I joined Amazon Data Services Ireland as a Software Development Engineer Intern in...',
           description: "",
-          section: "News",},{id: "news-proud-to-win-1st-place-in-the-go-green-go-digital-go-start-up-competition-for-my-project-fooderloo-a-sustainable-solution-to-reduce-food-waste-in-cyprus",
-          title: 'Proud to win 1st place in the “Go Green, Go Digital, Go Start-up!”...',
+          section: "News",},{id: "news-fooderloo-won-1st-place-in-the-go-green-go-digital-go-start-up-competition",
+          title: 'Fooderloo won 1st place in the Go Green, Go Digital, Go Start-up! competition....',
           description: "",
-          section: "News",},{id: "news-thrilled-to-have-been-given-the-best-ready-for-production-solution-by-the-summer-of-ai-organisation-for-improving-the-co-product-category-matching-algorithm-at-south-pole-during-my-internship-increasing-its-top-1-accuracy-by-25-2-and-deploying-the-enhanced-models-to-production-using-kubernetes",
-          title: 'Thrilled to have been given the “Best Ready for Production Solution” by the...',
+          section: "News",},{id: "news-our-south-pole-project-received-the-best-ready-for-production-solution-award-at-summer-of-ai-during-my-internship-i-improved-product-to-category-matching-accuracy-by-25-2-percentage-points-and-deployed-the-models-using-kubernetes",
+          title: 'Our South Pole project received the Best Ready for Production Solution award at...',
           description: "",
-          section: "News",},{id: "news-published-a-reproducibility-study-in-rescience-c-reproducibility-study-of-label-free-explainability-for-unsupervised-models-read-more-here",
-          title: 'Published a reproducibility study in ReScience C: “Reproducibility Study of ‘Label-Free Explainability for...',
+          section: "News",},{id: "news-our-reproducibility-study-of-label-free-explainability-for-unsupervised-models-was-published-in-rescience-c",
+          title: 'Our reproducibility study of Label-Free Explainability for Unsupervised Models was published in ReScience...',
           description: "",
-          section: "News",},{id: "news-honored-to-graduate-cum-laude-from-the-university-of-amsterdam-with-an-msc-in-artificial-intelligence-grateful-for-the-opportunity-to-participate-in-the-ellis-msc-honours-programme",
-          title: 'Honored to graduate cum laude from the University of Amsterdam with an MSc...',
+          section: "News",},{id: "news-i-graduated-cum-laude-with-an-msc-in-artificial-intelligence-from-the-university-of-amsterdam-where-i-also-took-part-in-the-ellis-msc-honours-programme",
+          title: 'I graduated cum laude with an MSc in Artificial Intelligence from the University...',
           description: "",
-          section: "News",},{id: "news-excited-to-begin-my-phd-journey-at-the-university-of-technology-nuremberg-focusing-on-self-supervised-learning-and-synthetic-data-to-improve-vision-models-grateful-to-work-under-the-supervision-of-dr-yuki-m-asano-looking-forward-to-contributing-to-advancements-in-ai-research",
-          title: 'Excited to begin my PhD journey at the University of Technology Nuremberg, focusing...',
+          section: "News",},{id: "news-i-started-my-phd-at-the-university-of-technology-nuremberg-working-on-self-supervised-learning-for-vision-with-yuki-m-asano",
+          title: 'I started my PhD at the University of Technology Nuremberg, working on self-supervised...',
           description: "",
-          section: "News",},{id: "news-excited-to-announce-that-our-paper-neco-improving-dinov2-s-spatial-representations-in-19-gpu-hours-with-patch-neighbor-consistency-has-been-accepted-to-iclr-2025-you-can-read-it-here",
-          title: 'Excited to announce that our paper, “NeCo: Improving DINOv2’s spatial representations in 19...',
+          section: "News",},{id: "news-our-paper-near-far-patch-ordering-enhances-vision-foundation-models-scene-understanding-neco-was-accepted-to-iclr-2025",
+          title: 'Our paper Near, far: Patch-ordering enhances vision foundation models’ scene understanding (NeCo) was...',
+          description: "",
+          section: "News",},{id: "news-our-paper-franca-was-accepted-to-cvpr-2026-shashanka-venkataramanan-and-i-are-co-first-authors",
+          title: 'Our paper Franca was accepted to CVPR 2026. Shashanka Venkataramanan and I are...',
+          description: "",
+          section: "News",},{id: "news-i-was-named-an-outstanding-reviewer-at-cvpr-2026",
+          title: 'I was named an Outstanding Reviewer at CVPR 2026.',
           description: "",
           section: "News",},{id: "projects-neco",
           title: 'NeCo',
-          description: "NeCo - Patch Neighbor Consistency is an SSL loss that leverages differentiable sorting to enforce patch-level nearest neighbor consistency between a student and teacher model, delivering state-of-the-art dense feature encoders and significant performance improvements across multiple vision tasks and datasets",
+          description: "Learning the order of nearby patches to improve dense visual features.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-robustness-of-3d-occupancy-prediction",
+          title: 'Robustness of 3D occupancy prediction',
+          description: "Testing how 3D occupancy models handle corrupted inputs and how data augmentation affects their performance. UvA course project, 2023.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3d-occupancy/";
+            },},{id: "projects-franca",
+          title: 'Franca',
+          description: "Learning visual features at several levels of detail for dense prediction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/franca/";
+            },},{id: "projects-open-hummingbird-evaluation",
+          title: 'Open Hummingbird Evaluation',
+          description: "An open-source implementation of dense nearest-neighbor evaluation for vision encoders, developed during my MSc thesis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/open-hummingbird/";
+            },},{id: "projects-open-vision-banana",
+          title: 'Open Vision Banana',
+          description: "Adapting image editors for perception, including depth, surface normals and segmentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/open-vision-banana/";
+            },},{id: "projects-socratic-image-generation",
+          title: 'Socratic Image Generation',
+          description: "Using image captions to refine generation prompts, and studying bias and hallucinations when connecting models. UvA course project, 2023.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/socratic-image-generation/";
             },},{
         id: 'social-email',
         title: 'email',
